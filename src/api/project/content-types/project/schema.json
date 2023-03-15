@@ -16,10 +16,6 @@
       "type": "string",
       "required": true
     },
-    "Detail": {
-      "type": "richtext",
-      "required": false
-    },
     "Status": {
       "type": "enumeration",
       "enum": [
@@ -34,6 +30,13 @@
     "Title": {
       "type": "string",
       "required": true
+    },
+    "Detail": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
     }
   }
 }
