@@ -1,6 +1,6 @@
 const config = {
   locales: [
-    'ru-RU'
+    'ru'
   ],
 };
 
