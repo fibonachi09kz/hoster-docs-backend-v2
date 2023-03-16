@@ -4,14 +4,17 @@
   "info": {
     "singularName": "project",
     "pluralName": "projects",
-    "displayName": "Проекты",
-    "description": ""
+    "displayName": "Проекты"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
     "Client": {
       "type": "string",
       "required": true
@@ -24,12 +27,11 @@
         "в разработке",
         "на поддержке"
       ],
-      "required": true,
-      "default": "не активен"
-    },
-    "Title": {
-      "type": "string",
+      "default": "активен",
       "required": true
+    },
+    "Detail": {
+      "type": "richtext"
     }
   }
 }
