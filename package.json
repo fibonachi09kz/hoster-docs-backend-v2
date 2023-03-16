@@ -1,8 +1,8 @@
 {
   "name": "hoster-docs-backend-v-2",
   "private": true,
-  "version": "0.1.0",
-  "description": "A Strapi application",
+  "version": "1.0.0",
+  "description": "Hoster Brains",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -10,14 +10,13 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@_sh/strapi-plugin-ckeditor": "^2.0.4",
-    "@strapi/plugin-i18n": "4.7.1",
-    "@strapi/plugin-users-permissions": "4.7.1",
-    "@strapi/strapi": "4.7.1",
+    "@strapi/plugin-i18n": "4.8.1",
+    "@strapi/plugin-users-permissions": "4.8.1",
+    "@strapi/strapi": "4.8.1",
     "mysql": "2.18.1"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Aleksin Danila Sergeevich"
   },
   "strapi": {
     "uuid": "2e65ea08-53ad-4c25-bebd-c870ab61601c"
