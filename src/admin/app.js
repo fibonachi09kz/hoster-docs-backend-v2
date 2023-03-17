@@ -1,7 +1,7 @@
 import AuthLogo from './extensions/logo.svg';
 import MenuLogo from './extensions/logo.svg';
 import favicon from './extensions/favicon.svg';
-
+import { ru } from './extensions/translation';
 
 const config = {
 	auth: {
@@ -13,9 +13,10 @@ const config = {
 	menu: {
 		logo: MenuLogo,
 	},
-	locales: [
-		'ru'
-	],
+	locales: ['ru'],
+	translations: {
+		ru: ru
+	},
 	tutorials: false,
 	notifications: { releases: false },
 };
