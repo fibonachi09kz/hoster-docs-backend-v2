@@ -4,7 +4,8 @@
   "info": {
     "singularName": "project",
     "pluralName": "projects",
-    "displayName": "Проекты"
+    "displayName": "Проекты",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -31,7 +32,11 @@
       "required": true
     },
     "Detail": {
-      "type": "richtext"
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBaloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
     }
   }
 }
