@@ -2,6 +2,7 @@ import AuthLogo from './extensions/logo.svg';
 import MenuLogo from './extensions/logo.svg';
 import favicon from './extensions/favicon.svg';
 import { ru } from './extensions/translation';
+const addDataToAlgolia = require('./extensions/algolia/algolia-index');
 
 const config = {
 	auth: {
@@ -21,8 +22,9 @@ const config = {
 	notifications: { releases: false },
 };
 
-const bootstrap = (app) => {
+const bootstrap = async (app) => {
 	console.log(app)
+	await addDataToAlgolia();
 };
 
 export default {
