@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_courses_course_resources",
+  "info": {
+    "displayName": "Course resource"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}
