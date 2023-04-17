@@ -4,7 +4,8 @@
   "info": {
     "singularName": "course",
     "pluralName": "courses",
-    "displayName": "Курсы"
+    "displayName": "Курсы",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,11 +18,19 @@
     "Description": {
       "type": "text"
     },
-    "Resource": {
+    "Lesson": {
       "displayName": "Course resource",
       "type": "component",
       "repeatable": true,
       "component": "courses.course-resource"
+    },
+    "Picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
