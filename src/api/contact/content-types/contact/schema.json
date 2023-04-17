@@ -4,15 +4,19 @@
   "info": {
     "singularName": "contact",
     "pluralName": "contacts",
-    "displayName": "Контакты"
+    "displayName": "Контакты",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
-      "type": "string"
+    "Contact": {
+      "displayName": "Contact Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-single.contact-card"
     }
   }
 }

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_contact_single_contact_cards",
+  "info": {
+    "displayName": "Contact Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "EmailField": {
+      "displayName": "Email",
+      "type": "component",
+      "repeatable": true,
+      "component": "custom-fields.email"
+    }
+  }
+}
