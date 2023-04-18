@@ -3,7 +3,7 @@ module.exports = ({ env })=>({
 		config: {
 			provider: 'local',
 			providerOptions: {
-				sizeLimit: 1000000,
+				sizeLimit: 250 * 1024 * 1024,
 			},
 		},
     }
